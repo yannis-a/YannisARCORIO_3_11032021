@@ -3,15 +3,17 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
 }
 
-html {
-    // 10px div by def of 16px
-    font-size: 62.5%;
+ul {
+    list-style: none;
+
+    li {
+        margin-bottom: 10px;
+    }
 }
 
-body {
-    box-sizing: border-box;
-    background: $colour-secondary;
+a {
+    text-decoration: none;
+    color: inherit;
 }

@@ -1,16 +1,16 @@
 {
   "name": "writing-sass",
   "version": "1.0.0",
-  "description": "Joe Blow's portfolio",
+  "description": "OhMyFood",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:public/css/style.css --style compressed"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gerkx/maintainable-css-with-sass.git"
+    "url": "git+https://github.com/yannis-a/YannisARCORIO_3_11032021.git"
   },
-  "author": "gerkx",
+  "author": "yannis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gerkx/maintainable-css-with-sass/issues"
