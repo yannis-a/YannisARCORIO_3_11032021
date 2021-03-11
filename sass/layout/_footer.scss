@@ -2,9 +2,16 @@
     background-color: darkslategrey;
     color: white;
     padding: 15px;
-    font-size:0.7em;
+    font-size: 0.7em;
 
     &__title {
         font-size: 1.2em;
+    }
+
+    &__list {
+        i {
+            margin-right: 5px;
+            width: 15px;
+        }
     }
 }
