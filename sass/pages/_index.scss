@@ -1,0 +1,19 @@
+.entete {
+    margin: 50px 10px 50px 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    * {
+        margin: 5px;
+    }
+
+    h3 {
+        width: 60%;
+    }
+
+    p {
+        width: 85%
+    }
+}
