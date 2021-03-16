@@ -35,8 +35,5 @@
             }
         }
     }
-    &__btn {
-        @include btn;
-        grid-area: btn;
-    }
+   
 }

@@ -5,15 +5,29 @@
     display: flex;
     flex-direction: column;
 
-    * {
-        margin: 5px;
-    }
-
     h3 {
         width: 60%;
+        margin: $marge-light;
     }
 
     p {
-        width: 85%
+        width: 85%;
+        margin: $marge-light;
+        font-weight: 300;
+    }
+
+    button {
+        margin: $marge-hight;
+    }
+}
+
+.localisation {
+    text-align: center;
+    padding: $marge-half-hight;
+    background-color: lightgray;
+    font-size: 0.9em;
+
+    i {
+        margin-right: $marge-half-hight;
     }
 }

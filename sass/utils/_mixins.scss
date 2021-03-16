@@ -1,43 +1,33 @@
-@mixin heading-shadow($colour:lightness-shift($colour-primary), $offset: $heading-shadow-size){
+@mixin heading-shadow($colour: lightness-shift($colour-primary), $offset: $heading-shadow-size) {
     text-shadow: $offset $offset $colour;
 }
 
-@mixin box-shadow() {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+@mixin box-shadow($intensity: 0.4) {
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,$intensity);
 }
 
 
-@mixin border($colour:$colour-primary) {
+@mixin border($colour: $colour-primary) {
     border: .1rem solid $colour;
 }
 
 @mixin img-ratio {
     width: 100%;
-        display: block;
-        overflow: hidden;
-        padding-top: 56.25%;
-        position: relative;
-        & img {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 100%;
-            transform: translate(-50%, -50%);
-        }
+    display: block;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+
+    & img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
 }
 
-@mixin btn {
-    padding: $grid-gutter;
-    @include border;
-    color: $colour-primary;
-    background: $colour-secondary;
-    cursor: pointer;
-    &:hover{
-        background: $colour-primary;
-        color: $colour-accent;
-    }
-    &--full-width {
-        width: 100%;
-        margin: 0 auto;
-    }
+@mixin lg-background-color($colour1: $colour-primary, $colour2: $colour-secondary, $angle: -10deg) {
+    background: linear-gradient($angle, $colour1 0%, $colour2 100%);
 }
+

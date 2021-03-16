@@ -1,3 +1,18 @@
 .btn {
-    @include btn
+    border: none;
+    outline: none;
+    @include box-shadow;
+
+    &--principal {
+        @include lg-background-color();
+        color: white;
+        border-radius: 25px;
+        padding-left: 15px; padding-right : 15px;
+        height: 40px;
+    }
+
+    &:hover {
+        @include box-shadow(0.8);
+        @include lg-background-color($colour-primary,lighten($colour-secondary, 5%));
+    }
 }
