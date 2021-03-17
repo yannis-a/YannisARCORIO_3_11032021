@@ -1,13 +1,13 @@
 .entete {
-    margin: 50px 10px 50px 10px;
+    padding: $padding-section;
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: lighten(black, 96%);
 
     h3 {
         width: 60%;
-        margin: $marge-light;
     }
 
     p {
@@ -24,10 +24,11 @@
 .localisation {
     text-align: center;
     padding: $marge-half-hight;
-    background-color: lightgray;
+    background-color: lighten(black, 92%);
     font-size: 0.9em;
 
     i {
         margin-right: $marge-half-hight;
     }
 }
+

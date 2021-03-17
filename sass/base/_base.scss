@@ -5,16 +5,11 @@
     padding: 0;
 }
 
-ul {
-    list-style: none;
-
-    li {
-        margin-bottom: 10px;
-    }
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
+h3 {
+    margin: $marge-hight;
+}
