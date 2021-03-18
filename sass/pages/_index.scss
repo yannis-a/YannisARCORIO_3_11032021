@@ -1,5 +1,4 @@
 .entete {
-    padding: $padding-section;
     text-align: center;
     align-items: center;
     display: flex;
@@ -15,10 +14,6 @@
         margin: $marge-light;
         font-weight: 300;
     }
-
-    button {
-        margin: $marge-hight;
-    }
 }
 
 .localisation {
@@ -26,6 +21,9 @@
     padding: $marge-half-hight;
     background-color: lighten(black, 92%);
     font-size: 0.9em;
+    width: 100%;
+    position: relative;
+    top: -30px;
 
     i {
         margin-right: $marge-half-hight;

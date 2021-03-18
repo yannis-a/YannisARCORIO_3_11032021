@@ -1,5 +1,5 @@
 ﻿.footer {
-    background-color: darkslategrey;
+    background-color: lighten( black, 10%);
     color: white;
     padding: 15px;
     font-size: 0.7em;
@@ -14,5 +14,9 @@
             margin-right: 5px;
             width: 15px;
         }
+    }
+
+    h3{
+    margin:0;
     }
 }
