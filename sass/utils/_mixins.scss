@@ -31,3 +31,47 @@
     background: linear-gradient($angle, $colour1 0%, $colour2 100%);
 }
 
+@mixin btn {
+    border: none;
+    outline: none;
+    z-index: 1;
+    position: relative;
+}
+
+@mixin favory {
+    @include btn;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50px;
+    font-size: 1.5em;
+
+    &--empty {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        &:hover + .favory--full {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    &--full {
+        position: absolute;
+        opacity: 0;
+        transform: scale(0);
+        transition: all 1000ms ease-out;
+        transform-origin: bottom;
+
+        &:hover {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    &--colour_primary {
+        color: $colour-primary;
+    }
+}

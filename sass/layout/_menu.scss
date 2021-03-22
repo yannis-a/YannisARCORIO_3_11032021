@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+
+        .favory {
+            @include favory;
+        }
+    }
+
+     &__image {
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            width: 100%;
+
+            img {
+                width: inherit;
+            }
+        }
+}

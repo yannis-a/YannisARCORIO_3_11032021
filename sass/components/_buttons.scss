@@ -1,36 +1,5 @@
 .btn {
-    border: none;
-    outline: none;
-    z-index: 1;
-    position: relative;
-
-    &__heart {
-        background-color: white;
-
-        &--empty {
-            position: relative;
-            overflow:hidden;
-            z-index:1;
-
-            &:hover + .btn__heart--full {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-
-        &--full {
-            position: absolute;
-            opacity: 0;
-            transform: scale(0);
-            transition: all 1000ms ease-out;
-            transform-origin:bottom;
-
-            &:hover {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-    }
+    @include btn;
 
     &__principal {
         @include lg-background-color();
@@ -53,10 +22,6 @@
     }
 
 
-    &--mh {
-        margin: $marge-hight;
-    }
-
     &__bg {
         border-radius: 25px;
         position: absolute;
@@ -68,5 +33,9 @@
         opacity: 0;
         z-index: -1;
         transition: opacity 250ms linear;
+    }
+
+    &--thin{
+    width:40%;
     }
 }

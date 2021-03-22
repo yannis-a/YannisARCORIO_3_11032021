@@ -37,13 +37,8 @@
                 }
             }
 
-            &__around {
-                display: flex;
-                justify-content: center;
-                align-self: center;
-                width: 50px;
-                font-size: 1.5em;
-                color: $colour-primary;
+            .favory {
+                @include favory;
             }
         }
 
