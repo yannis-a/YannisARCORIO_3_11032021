@@ -11,6 +11,16 @@
     &-large {
         font-size: x-large;
     }
+
+    &-core {
+        font-weight: 400;
+
+        div {
+            width: 40px;
+            border-bottom: 5px solid $colour-tertiary;
+            border-radius: 5px;
+        }
+    }
 }
 
 
