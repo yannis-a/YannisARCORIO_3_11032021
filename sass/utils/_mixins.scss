@@ -51,6 +51,8 @@
         position: relative;
         overflow: hidden;
         z-index: 1;
+        width: 30px;
+        height: 30px;
 
         &:hover + .favory--full {
             opacity: 1;

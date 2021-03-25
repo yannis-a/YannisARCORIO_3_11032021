@@ -19,9 +19,6 @@ a {
     position: relative;
 }
 
-h3 {
-    margin: $marge-hight;
-}
 
 section {
     padding: $padding-section;
@@ -29,6 +26,10 @@ section {
 
 .mh {
     margin: $marge-hight;
+}
+
+.mt {
+    margin: $marge-thin;
 }
 
 .mb {
@@ -55,6 +56,7 @@ section {
     &-30 {
         margin-bottom: 30px;
     }
+
     &-50 {
         margin-bottom: 350px;
     }

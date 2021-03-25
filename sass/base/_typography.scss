@@ -3,6 +3,17 @@
 }
 
 .title {
-    font-family: 'Shrikhand', cursive;
-    font-weight:400;
+    &-omf {
+        font-family: 'Shrikhand', cursive;
+        font-weight: 400;
+    }
+
+    &-large {
+        font-size: x-large;
+    }
+}
+
+
+.uppercase {
+    text-transform: uppercase;
 }
