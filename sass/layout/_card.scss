@@ -1,4 +1,4 @@
-.cards {
+.group-card {
     display: flex;
     justify-content: space-evenly;
     flex-flow: wrap row;
@@ -17,6 +17,73 @@
 
         &:hover {
             @include box-shadow(0.8);
+        }
+
+
+        &_dish {
+            width: 100%;
+            padding: 5px 10px;
+            height: 50px;
+            border:none;
+            animation-delay: .3s;
+            overflow: hidden;
+            animation: itemAppear .6s;
+            animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+            animation-fill-mode: both;
+            transform: scale(0);
+            max-width: 100%;
+            display: flex;
+            flex-flow: nowrap row;
+
+            &_note {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+
+            &_price {
+                font-weight: bold;
+                font-size: 0.9em;
+                align-self: flex-end;
+            }
+
+            &_confirmation {
+                background-color: $colour-tertiary;
+                margin: -1em -5em -1em 1.1em;
+                width: 4em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition-duration: 0.5s;
+            }
+
+            &:hover .card_dish_confirmation {
+                margin-right: -1em;
+            }
+
+            &_wrapIcon {
+                height: 1.6em;
+                width: 1.6em;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100px;
+                transform: rotate(180deg);
+                transition-duration: 0.5s;
+            }
+
+            &:hover .card_dish_wrapIcon {
+                transform: rotate(0);
+            }
+
+            &_icon {
+                color: $colour-tertiary;
+            }
         }
 
         &__body {
