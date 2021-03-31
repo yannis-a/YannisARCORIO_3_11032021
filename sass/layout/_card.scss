@@ -1,4 +1,4 @@
-.group-card {
+.group_card {
     display: flex;
     justify-content: space-evenly;
     flex-flow: wrap row;
@@ -21,28 +21,28 @@
 
 
         &_dish {
-            width: 100%;
-            padding: 5px 10px;
-            height: 50px;
-            border:none;
-            animation-delay: .3s;
-            overflow: hidden;
-            animation: itemAppear .6s;
-            animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-            animation-fill-mode: both;
-            transform: scale(0);
-            max-width: 100%;
             display: flex;
             flex-flow: nowrap row;
+            width: 100%;
+            max-width: 100%;
+            padding: 5px 10px;
+            height: 50px;
+            border: none;
+            overflow: hidden;
 
             &_note {
                 white-space: nowrap;
                 overflow: hidden;
-                text-overflow: ellipsis;
                 width: 90%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
+
+                & > p, > h4 {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
             }
 
             &_price {
@@ -53,8 +53,8 @@
 
             &_confirmation {
                 background-color: $colour-tertiary;
-                margin: -1em -5em -1em 1.1em;
-                width: 4em;
+                margin: -1em -6em -1em 1em;
+                width: 5em;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -73,8 +73,8 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 100px;
-                transform: rotate(180deg);
-                transition-duration: 0.5s;
+                transform: rotate(-180deg);
+                transition-duration: 0.7s;
             }
 
             &:hover .card_dish_wrapIcon {
