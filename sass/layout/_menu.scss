@@ -23,6 +23,7 @@
             padding: 10px 0px 5px 0px;
             max-width: 100vw;
         }
+        @include pop-dish;
     }
 
     &__img {
@@ -35,22 +36,6 @@
         img {
             max-width: 100%;
             height: auto;
-        }
-    }
-
-    @for $i from 0 through 3 {
-        & section:nth-child(#{$i}) {
-            /* jusqu'a 10 : valeur a changer en fonction du nombre de plat par menu */
-            @for $j from 0 through 5 {
-                $k: $j + $i;
-                & article:nth-child(#{$j}) {
-                    animation-delay: 1.2s * $k;
-                    transform: scale(0);
-                    animation: itemAppear .8s;
-                    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-                    animation-fill-mode: both;
-                }
-            }
         }
     }
 }
