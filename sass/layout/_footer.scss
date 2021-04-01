@@ -1,15 +1,14 @@
 ﻿.footer {
-    background-color: darkslategrey;
+    background-color: lighten( black, 10%);
     color: white;
     padding: 15px;
     font-size: 0.7em;
 
-    &__title {
+    .title {
         font-size: 1.2em;
-        margin-bottom: 15px;
     }
 
-    &__list {
+    .list {
         i {
             margin-right: 5px;
             width: 15px;
