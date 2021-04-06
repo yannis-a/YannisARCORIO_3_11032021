@@ -7,6 +7,7 @@
 
 main {
     display: flex;
+    flex-wrap: wrap;
 
     @media screen and (max-width: 730px) {
         flex-direction: column;
@@ -19,6 +20,9 @@ a {
     position: relative;
 }
 
+.center {
+    text-align: center
+}
 
 section {
     padding: $padding-section;

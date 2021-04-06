@@ -1,174 +1,131 @@
-﻿La palette du goût
-
-Entrées
-<h4 class="plat_title">Fricassée d'escargot</h4>
-<span class="plat_note">Au piment d'Espelette </span>
-<span class="plat_price">25€</span>
-
-<h4 class="plat_title">Foie gras de canard mi-cuit</h4>
-<span class="plat_note">Et ses copeaux de truffe noire</span>
-<span class="plat_price">35€</span>
-
-<h4 class="plat_title">Oeuf au plat</h4>
-<span class="plat_note">Assaisonné à la truffe sur lit de caviar</span>
-<span class="plat_price">20€</span>
-
-
-Plats
-<h4 class="plat_title">Filet de boeuf aux herbes</h4>
-<span class="plat_note">Accompagné de sa ribambelle de légumes</span>
-<span class="plat_price">40€</span>
-
-<h4 class="plat_title">Parmentier de queue de boeuf</h4>
-<span class="plat_note">À la truffe noire sur sa purée de panais</span>
-<span class="plat_price">35€</span>
-
-<h4 class="plat_title">Filet de turbot</h4>
-<span class="plat_note">Aux agrumes</span>
-<span class="plat_price">44€</span>
-        
-Desserts
-<h4 class="plat_title">Paris-Brest</h4>
-<span class="plat_note">Revisité</span>
-<span class="plat_price">18€</span>
-
-<h4 class="plat_title">Macaron au chocolat d'exception </h4>
-<span class="plat_note">Et glace à la vanille de Madagascar</span>
-<span class="plat_price">22€</span>
-
-<h4 class="plat_title">Mousse au chocolat </h4>
-<span class="plat_note">Au piment d'Espelette et à la truffe noire</span>
-<span class="plat_price">23€  </span>
-  
----     
-
+﻿
 Le délice des sens
 
 Entrées
-<h4 class="plat_title">Tartare de thon</h4>
-<span class="plat_note">Assaisonné au yuzu</span>
-<span class="plat_price">25€</span>
+Tartare de thon
+Assaisonné au yuzu
+25€
 
-<h4 class="plat_title">Bouchée de homard croustillant </h4>
-<span class="plat_note">Et sa farandole de petits légumes</span>
-<span class="plat_price">35€</span>
+Bouchée de homard croustillant 
+Et sa farandole de petits légumes
+35€
 
-<h4 class="plat_title">Velouté de cèpes </h4>
-<span class="plat_note">Aux truffes</span>
-<span class="plat_price">20€</span>
+Velouté de cèpes 
+Aux truffes
+20€
         
 Plats
-<h4 class="plat_title">Poulet rôti aux herbes de Provence </h4>
-<span class="plat_note">Et sa crème de truffe</span>
-<span class="plat_price">40€</span>
+Poulet rôti aux herbes de Provence 
+Et sa crème de truffe
+40€
 
-<h4 class="plat_title">Langouste rôtie </h4>
-<span class="plat_note">Et ses légumes de saison</span>
-<span class="plat_price">35€</span>
+Langouste rôtie 
+Et ses légumes de saison
+35€
 
-<h4 class="plat_title">Côte de boeuf Angus </h4>
-<span class="plat_note">Et sa purée de panais</span>
-<span class="plat_price">44€</span>
+Côte de boeuf Angus 
+Et sa purée de panais
+44€
 
 Desserts
-<h4 class="plat_title">Farandole de desserts</h4>
-<span class="plat_note">Du chef</span>
-<span class="plat_price">18€</span>
+Farandole de desserts
+Du chef
+18€
 
-<h4 class="plat_title">Crème brulée </h4>
-<span class="plat_note">Revisitée</span>
-<span class="plat_price">22€</span>
+Crème brulée 
+Revisitée
+22€
 
-<h4 class="plat_title">Tiramisu </h4>
-<span class="plat_note">À la noisette</span>
-<span class="plat_price">23€</span>
+Tiramisu 
+À la noisette
+23€
 
 ---
 
 La note enchantée
 
 Entrées
-<h4 class="plat_title">Ravioles de foie gras </h4>
-<span class="plat_note">Accompagnés de leur crème à la truffe</span>
-<span class="plat_price">25€</span>
+Ravioles de foie gras 
+Accompagnés de leur crème à la truffe
+25€
 
-<h4 class="plat_title">Caviar osciètre </h4>
-<span class="plat_note">Sur blini à la farine de blé noir</span>
-<span class="plat_price">35€</span>
+Caviar osciètre 
+Sur blini à la farine de blé noir
+35€
 
-<h4 class="plat_title">Homard et espuma de potiron</h4>
-<span class="plat_note">Mariné aux zestes d'orange</span>
-<span class="plat_price">20€</span>
+Homard et espuma de potiron
+Mariné aux zestes d'orange
+20€
 
-<h4 class="plat_title">Foie gras de canard cuit entier</h4>
-<span class="plat_note">Confiture de figue et pain toasté</span>
-<span class="plat_price">35€</span>
+Foie gras de canard cuit entier
+Confiture de figue et pain toasté
+35€
         
 Plats
-<h4 class="plat_title">Noix de coquilles Saint-Jacques</h4>
-<span class="plat_note">Sur lit de purée de céleri-rave</span>
-<span class="plat_price">40€</span>
+Noix de coquilles Saint-Jacques
+Sur lit de purée de céleri-rave
+40€
 
-<h4 class="plat_title">Langoustine poêlée</h4>
-<span class="plat_note">Purée de patate douce</span>
-<span class="plat_price">35€</span>
+Langoustine poêlée
+Purée de patate douce
+35€
 
-<h4 class="plat_title">Mijoté de queue de boeuf </h4>
-<span class="plat_note">Et riz sauvage aux zestes de citron</span>
-<span class="plat_price">44€</span>
+Mijoté de queue de boeuf 
+Et riz sauvage aux zestes de citron
+44€
 
 Desserts
-<h4 class="plat_title">Macaron noisette et chocolat</h4>
-<span class="plat_note">Glace au caramel brun et sel de Guérande</span>
-<span class="plat_price">18€</span>
+Macaron noisette et chocolat
+Glace au caramel brun et sel de Guérande
+18€
 
-<h4 class="plat_title">Baba au rhum revisité </h4>
-<span class="plat_note">Avec son coulis de citron</span>
-<span class="plat_price">22€</span>
+Baba au rhum revisité 
+Avec son coulis de citron
+22€
 
-<h4 class="plat_title">Tarte au citron meringuée </h4>
-<span class="plat_note">Déstructurée</span>
-<span class="plat_price">23€</span>
+Tarte au citron meringuée 
+Déstructurée
+23€
 
 ---
 
 À la française
 
 Entrées
-<h4 class="plat_title">Tartare de poulpe acidulé</h4>
-<span class="plat_note">Aux zestes d'orange</span>
-<span class="plat_price">25€</span>
+Tartare de poulpe acidulé
+Aux zestes d'orange
+25€
 
-<h4 class="plat_title">Velouté de légumes d'antan</h4>
-<span class="plat_note">Carotte, panais, topinambour</span>
-<span class="plat_price">35€</span>
+Velouté de légumes d'antan
+Carotte, panais, topinambour
+35€
 
-<h4 class="plat_title">Soupe à l'oignon</h4>
-<span class="plat_note">Revisitée</span>
-<span class="plat_price">20€</span>
+Soupe à l'oignon
+Revisitée
+20€
 
 Plats
-<h4 class="plat_title">Coquilles Saint-Jacques</h4>
-<span class="plat_note">Accompagnées d'une purée de panais</span>
-<span class="plat_price">40€</span>
+Coquilles Saint-Jacques
+Accompagnées d'une purée de panais
+40€
 
-<h4 class="plat_title">Magret de canard</h4>
-<span class="plat_note">Et parmentier de pommes de terre</span>
-<span class="plat_price">35€</span>
+Magret de canard
+Et parmentier de pommes de terre
+35€
 
-<h4 class="plat_title">Pigeonneau d’Ille-et-Vilaine</h4>
-<span class="plat_note">Sur son lit de gnocchis aux légumes</span>
-<span class="plat_price">44€</span>
+Pigeonneau d’Ille-et-Vilaine
+Sur son lit de gnocchis aux légumes
+44€
 
 Desserts
-<h4 class="plat_title">Pétales de violettes glacés</h4>
-<span class="plat_note">Et purée de noisettes</span>
-<span class="plat_price">18€</span>
+Pétales de violettes glacés
+Et purée de noisettes
+18€
 
-<h4 class="plat_title">Fondant au chocolat</h4>
-<span class="plat_note">Revisité</span>
-<span class="plat_price">22€</span>
+Fondant au chocolat
+Revisité
+22€
 
-<h4 class="plat_title">Millefeuille croustillant</h4>
-<span class="plat_note">Myrtilles et pâte d’amande</span>
-<span class="plat_price">23€</span>
+Millefeuille croustillant
+Myrtilles et pâte d’amande
+23€
